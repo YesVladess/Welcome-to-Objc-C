@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A924ED6279157EF0071E5DE /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A924ED5279157EF0071E5DE /* Person.m */; };
 		5AE6D0E327357ADF0007E645 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6D0E227357ADF0007E645 /* AppDelegate.m */; };
 		5AE6D0E627357ADF0007E645 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6D0E527357ADF0007E645 /* SceneDelegate.m */; };
 		5AE6D0E927357ADF0007E645 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6D0E827357ADF0007E645 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A924ED4279157EF0071E5DE /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		5A924ED5279157EF0071E5DE /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		5AE6D0DE27357ADF0007E645 /* Welcome to Objc-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Welcome to Objc-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE6D0E127357ADF0007E645 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5AE6D0E227357ADF0007E645 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,6 +64,8 @@
 		5AE6D0E027357ADF0007E645 /* Welcome to Objc-C */ = {
 			isa = PBXGroup;
 			children = (
+				5A924ED4279157EF0071E5DE /* Person.h */,
+				5A924ED5279157EF0071E5DE /* Person.m */,
 				5AE6D0E127357ADF0007E645 /* AppDelegate.h */,
 				5AE6D0E227357ADF0007E645 /* AppDelegate.m */,
 				5AE6D0E427357ADF0007E645 /* SceneDelegate.h */,
@@ -148,6 +153,7 @@
 			files = (
 				5AE6D0E927357ADF0007E645 /* ViewController.m in Sources */,
 				5AE6D0E327357ADF0007E645 /* AppDelegate.m in Sources */,
+				5A924ED6279157EF0071E5DE /* Person.m in Sources */,
 				5AE6D0F427357AE10007E645 /* main.m in Sources */,
 				5AE6D0E627357ADF0007E645 /* SceneDelegate.m in Sources */,
 			);
