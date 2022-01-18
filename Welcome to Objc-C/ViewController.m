@@ -7,6 +7,7 @@
 
 #import "ViewController.h"
 #import "Person.h"
+#import "Vehicle.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    Vehicle *car = [[Vehicle alloc] init];
+    car.odometer = -100;
+    NSLog(@"odometer: %lu", car.odometer);
+    car.model = @"Honda Civic";
+    NSLog(@"I drive a: %@", car.model);
+    
+    self.name = [[NSString alloc] init];
+    self.age = 10;
+    NSLog(@"age is %d", self.age);
+    
+    // Incorrect use of pointers
+    self.agePoint = 10;
+    NSLog(@"agePoint is %d", self.agePoint);
 }
 
 - (IBAction)buttonPressed:(id)sender {
