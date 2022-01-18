@@ -31,6 +31,10 @@
     // Incorrect use of pointers
     self.agePoint = 10;
     NSLog(@"agePoint is %d", self.agePoint);
+    
+    if (_name == &(*_name)) {
+        NSLog(@"Tanya umnichka");
+    }
 }
 
 - (IBAction)buttonPressed:(id)sender {
