@@ -22,6 +22,7 @@
     [self setLastName:@"Davis"];
 
     NSString *name = [self firstName];
+    NSLog(@"%@", name);
 
 
 }
