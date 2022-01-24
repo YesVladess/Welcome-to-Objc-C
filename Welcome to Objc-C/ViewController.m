@@ -9,6 +9,7 @@
 #import "Person.h"
 #import "Vehicle.h"
 #import "StringFling.h"
+#import "MountainMath.h"
 
 @interface ViewController ()
 
@@ -20,7 +21,6 @@
     [super viewDidLoad];
 
     // Properties and getters/setter lesson
-
     Vehicle *car = [[Vehicle alloc] init];
     car.odometer = -100;
     NSLog(@"odometer: %lu", car.odometer);
@@ -32,16 +32,20 @@
     NSLog(@"age is %d", self.age);
     
     // Incorrect use of pointers
-//    self.agePoint = 10;
-//    NSLog(@"agePoint is %d", self.agePoint);
+    //    self.agePoint = 10;
+    //    NSLog(@"agePoint is %d", self.agePoint);
     if (_name == &(*_name)) {
         NSLog(@"Tanya umnichka");
     }
 
     // Strings lesson
-
     StringFling *stringFling = [[StringFling alloc] init];
     [stringFling myFunc];
+
+    // Numbers lesson
+    MountainMath *math = [[MountainMath alloc] init];
+    [math myFunc];
+    
 }
 
 - (IBAction)buttonPressed:(id)sender {
