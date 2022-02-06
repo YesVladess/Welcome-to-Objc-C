@@ -17,6 +17,7 @@
 		5AE6D0F427357AE10007E645 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6D0F327357AE10007E645 /* main.m */; };
 		5AF1C4B9279D73E1003E7963 /* StringFling.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF1C4B8279D73E1003E7963 /* StringFling.m */; };
 		5AF1C4BC279F46BF003E7963 /* MountainMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF1C4BB279F46BF003E7963 /* MountainMath.m */; };
+		5AF1C4BF27AFECA9003E7963 /* NoBullying.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF1C4BE27AFECA9003E7963 /* NoBullying.m */; };
 		B2C1376F27971B8A00F96884 /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C1376E27971B8A00F96884 /* Vehicle.m */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,8 @@
 		5AF1C4B8279D73E1003E7963 /* StringFling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringFling.m; sourceTree = "<group>"; };
 		5AF1C4BA279F46BF003E7963 /* MountainMath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MountainMath.h; sourceTree = "<group>"; };
 		5AF1C4BB279F46BF003E7963 /* MountainMath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MountainMath.m; sourceTree = "<group>"; };
+		5AF1C4BD27AFECA9003E7963 /* NoBullying.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoBullying.h; sourceTree = "<group>"; };
+		5AF1C4BE27AFECA9003E7963 /* NoBullying.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoBullying.m; sourceTree = "<group>"; };
 		B2C1376D27971B8A00F96884 /* Vehicle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
 		B2C1376E27971B8A00F96884 /* Vehicle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vehicle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,8 +76,7 @@
 		5AE6D0E027357ADF0007E645 /* Welcome to Objc-C */ = {
 			isa = PBXGroup;
 			children = (
-				5A924ED4279157EF0071E5DE /* Person.h */,
-				5A924ED5279157EF0071E5DE /* Person.m */,
+				5AF1C4C027AFECEA003E7963 /* Lessons */,
 				5AE6D0E127357ADF0007E645 /* AppDelegate.h */,
 				5AE6D0E227357ADF0007E645 /* AppDelegate.m */,
 				5AE6D0E427357ADF0007E645 /* SceneDelegate.h */,
@@ -86,14 +88,25 @@
 				5AE6D0EF27357AE10007E645 /* LaunchScreen.storyboard */,
 				5AE6D0F227357AE10007E645 /* Info.plist */,
 				5AE6D0F327357AE10007E645 /* main.m */,
+			);
+			path = "Welcome to Objc-C";
+			sourceTree = "<group>";
+		};
+		5AF1C4C027AFECEA003E7963 /* Lessons */ = {
+			isa = PBXGroup;
+			children = (
+				5A924ED4279157EF0071E5DE /* Person.h */,
+				5A924ED5279157EF0071E5DE /* Person.m */,
 				B2C1376D27971B8A00F96884 /* Vehicle.h */,
 				B2C1376E27971B8A00F96884 /* Vehicle.m */,
 				5AF1C4B7279D73E1003E7963 /* StringFling.h */,
 				5AF1C4B8279D73E1003E7963 /* StringFling.m */,
 				5AF1C4BA279F46BF003E7963 /* MountainMath.h */,
 				5AF1C4BB279F46BF003E7963 /* MountainMath.m */,
+				5AF1C4BD27AFECA9003E7963 /* NoBullying.h */,
+				5AF1C4BE27AFECA9003E7963 /* NoBullying.m */,
 			);
-			path = "Welcome to Objc-C";
+			path = Lessons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +186,7 @@
 				5A924ED6279157EF0071E5DE /* Person.m in Sources */,
 				5AE6D0F427357AE10007E645 /* main.m in Sources */,
 				5AF1C4BC279F46BF003E7963 /* MountainMath.m in Sources */,
+				5AF1C4BF27AFECA9003E7963 /* NoBullying.m in Sources */,
 				5AE6D0E627357ADF0007E645 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
