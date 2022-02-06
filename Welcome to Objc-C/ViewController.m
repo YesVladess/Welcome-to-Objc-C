@@ -21,7 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    if (1 == 0) {
+    if (FALSE) {
         // Class lesson
         Person *person1 = [[Person alloc] init];
         person1.firstName = @"Sandra";
