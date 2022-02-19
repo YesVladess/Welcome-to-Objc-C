@@ -10,7 +10,7 @@
 @implementation StringFling
 
 
-- (void) myFunc {
+- (void) startLesson {
     NSString *firstName = @"Vasya";
     NSString *lastName = [[NSString alloc] init];
     lastName = @"Malkovich";

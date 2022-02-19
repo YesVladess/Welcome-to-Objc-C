@@ -1,15 +1,15 @@
 //
-//  StringFling.h
+//  Dictionary.h
 //  Welcome to Objc-C
 //
-//  Created by YesVladess on 23.01.2022.
+//  Created by YesVladess on 19.02.2022.
 //
 
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface StringFling : NSObject
+@interface Dictionary : NSObject
 
 - (void) startLesson;
 

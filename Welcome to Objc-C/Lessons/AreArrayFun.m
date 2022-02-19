@@ -9,7 +9,7 @@
 
 @implementation AreArrayFun
 
-- (void) testFunc {
+- (void) startLesson {
 
     NSArray *array = [NSArray arrayWithObjects:@"My", @"mother", @"told", @"me", nil];
     NSString *string = @"Yay for Strings!";

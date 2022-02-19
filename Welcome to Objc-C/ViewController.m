@@ -13,6 +13,7 @@
 #import "NoBullying.h"
 #import "MethodMan.h"
 #import "AreArrayFun.h"
+#import "Dictionary.h"
 
 @interface ViewController ()
 
@@ -24,11 +25,11 @@
     [super viewDidLoad];
 
     if (FALSE) {
+
         // Class lesson
         Person *person1 = [[Person alloc] init];
         person1.firstName = @"Sandra";
         [person1 setLastName:@"Madnra"];
-
         // Properties and getters/setter lesson
         Vehicle *car = [[Vehicle alloc] init];
         car.odometer = -100;
@@ -39,7 +40,6 @@
         self.name = [[NSString alloc] init];
         self.age = 10;
         NSLog(@"age is %d", self.age);
-
         // Incorrect use of pointers
         //    self.agePoint = 10;
         //    NSLog(@"agePoint is %d", self.agePoint);
@@ -48,25 +48,29 @@
         }
 
         // Strings lesson
-        StringFling *stringFling = [[StringFling alloc] init];
-        [stringFling myFunc];
+        StringFling *stringLesson = [[StringFling alloc] init];
+        [stringLesson startLesson];
 
         // Numbers lesson
-        MountainMath *math = [[MountainMath alloc] init];
-        [math myFunc];
+        MountainMath *numbersLesson = [[MountainMath alloc] init];
+        [numbersLesson startLesson];
 
         // Bool lesson
-        NoBullying *bull = [[NoBullying alloc] init];
-        [bull myFunc];
+        NoBullying *boolLesson = [[NoBullying alloc] init];
+        [boolLesson startLesson];
 
         // Methods lesson
-        MethodMan *method = [[MethodMan alloc] init];
-        [method myFunc];
+        MethodMan *methodsLesson = [[MethodMan alloc] init];
+        [methodsLesson startLesson];
 
         // Arrays lesson
-        AreArrayFun *array = [[AreArrayFun alloc] init];
-        [array testFunc];
+        AreArrayFun *arrayLesson = [[AreArrayFun alloc] init];
+        [arrayLesson startLesson];
     }
+
+    // Dictionary lesson
+    Dictionary *dictLesson = [[Dictionary alloc] init];
+    [dictLesson startLesson];
     
 }
 

@@ -9,7 +9,7 @@
 
 @implementation NoBullying
 
-- (void) myFunc {
+- (void) startLesson {
 
     // What are theese?
     bool *whoAmI; // C type

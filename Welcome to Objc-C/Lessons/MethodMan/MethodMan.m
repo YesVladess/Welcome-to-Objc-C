@@ -15,7 +15,7 @@
 
 @implementation MethodMan
 
-- (void) myFunc {
+- (void) startLesson {
     _bankAccount = 500.50;
     _itemAmount = 400.00;
 

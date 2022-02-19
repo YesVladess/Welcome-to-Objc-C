@@ -11,7 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface MountainMath : NSObject
 
-- (void) myFunc;
+- (void) startLesson;
 
 @end
 

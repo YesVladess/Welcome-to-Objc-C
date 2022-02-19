@@ -9,7 +9,7 @@
 
 @implementation MountainMath
 
-- (void) myFunc {
+- (void) startLesson {
 
     // No need to use native C types unlil you have to
     // The limits are you can't store native C types into objc objects, for ex: you can't put them into NSArray
