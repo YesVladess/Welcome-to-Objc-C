@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5A924ED6279157EF0071E5DE /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A924ED5279157EF0071E5DE /* Person.m */; };
+		5AA6866627C0BAA400034DD3 /* MethodMan.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA6866527C0BAA400034DD3 /* MethodMan.m */; };
+		5AA6866A27C0C4BF00034DD3 /* Persona.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA6866927C0C4BF00034DD3 /* Persona.m */; };
 		5AE6D0E327357ADF0007E645 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6D0E227357ADF0007E645 /* AppDelegate.m */; };
 		5AE6D0E627357ADF0007E645 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6D0E527357ADF0007E645 /* SceneDelegate.m */; };
 		5AE6D0E927357ADF0007E645 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6D0E827357ADF0007E645 /* ViewController.m */; };
@@ -24,6 +26,10 @@
 /* Begin PBXFileReference section */
 		5A924ED4279157EF0071E5DE /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		5A924ED5279157EF0071E5DE /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		5AA6866427C0BAA400034DD3 /* MethodMan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MethodMan.h; sourceTree = "<group>"; };
+		5AA6866527C0BAA400034DD3 /* MethodMan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MethodMan.m; sourceTree = "<group>"; };
+		5AA6866827C0C4BF00034DD3 /* Persona.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Persona.h; sourceTree = "<group>"; };
+		5AA6866927C0C4BF00034DD3 /* Persona.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Persona.m; sourceTree = "<group>"; };
 		5AE6D0DE27357ADF0007E645 /* Welcome to Objc-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Welcome to Objc-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE6D0E127357ADF0007E645 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5AE6D0E227357ADF0007E645 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -57,6 +63,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5AA6866727C0C48200034DD3 /* MethodMan */ = {
+			isa = PBXGroup;
+			children = (
+				5AA6866427C0BAA400034DD3 /* MethodMan.h */,
+				5AA6866527C0BAA400034DD3 /* MethodMan.m */,
+				5AA6866827C0C4BF00034DD3 /* Persona.h */,
+				5AA6866927C0C4BF00034DD3 /* Persona.m */,
+			);
+			path = MethodMan;
+			sourceTree = "<group>";
+		};
 		5AE6D0D527357ADF0007E645 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +112,7 @@
 		5AF1C4C027AFECEA003E7963 /* Lessons */ = {
 			isa = PBXGroup;
 			children = (
+				5AA6866727C0C48200034DD3 /* MethodMan */,
 				5A924ED4279157EF0071E5DE /* Person.h */,
 				5A924ED5279157EF0071E5DE /* Person.m */,
 				B2C1376D27971B8A00F96884 /* Vehicle.h */,
@@ -181,6 +199,7 @@
 			files = (
 				5AE6D0E927357ADF0007E645 /* ViewController.m in Sources */,
 				5AE6D0E327357ADF0007E645 /* AppDelegate.m in Sources */,
+				5AA6866A27C0C4BF00034DD3 /* Persona.m in Sources */,
 				5AF1C4B9279D73E1003E7963 /* StringFling.m in Sources */,
 				B2C1376F27971B8A00F96884 /* Vehicle.m in Sources */,
 				5A924ED6279157EF0071E5DE /* Person.m in Sources */,
@@ -188,6 +207,7 @@
 				5AF1C4BC279F46BF003E7963 /* MountainMath.m in Sources */,
 				5AF1C4BF27AFECA9003E7963 /* NoBullying.m in Sources */,
 				5AE6D0E627357ADF0007E645 /* SceneDelegate.m in Sources */,
+				5AA6866627C0BAA400034DD3 /* MethodMan.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

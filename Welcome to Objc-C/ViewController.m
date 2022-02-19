@@ -6,11 +6,12 @@
 //
 
 #import "ViewController.h"
-#import "Lessons/Person.h"
-#import "Lessons/Vehicle.h"
-#import "Lessons/StringFling.h"
-#import "Lessons/MountainMath.h"
-#import "Lessons/NoBullying.h"
+#import "Person.h"
+#import "Vehicle.h"
+#import "StringFling.h"
+#import "MountainMath.h"
+#import "NoBullying.h"
+#import "MethodMan.h"
 
 @interface ViewController ()
 
@@ -53,11 +54,14 @@
         MountainMath *math = [[MountainMath alloc] init];
         [math myFunc];
 
+        // Bool lesson
+        NoBullying *bull = [[NoBullying alloc] init];
+        [bull myFunc];
     }
 
-    // Bool lesson
-    NoBullying *bull = [[NoBullying alloc] init];
-    [bull myFunc];
+    // Methods lesson
+    MethodMan *method = [[MethodMan alloc] init];
+    [method myFunc];
 
 }
 
