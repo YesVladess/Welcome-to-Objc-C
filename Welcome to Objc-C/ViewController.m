@@ -12,6 +12,7 @@
 #import "MountainMath.h"
 #import "NoBullying.h"
 #import "MethodMan.h"
+#import "AreArrayFun.h"
 
 @interface ViewController ()
 
@@ -57,17 +58,21 @@
         // Bool lesson
         NoBullying *bull = [[NoBullying alloc] init];
         [bull myFunc];
+
+        // Methods lesson
+        MethodMan *method = [[MethodMan alloc] init];
+        [method myFunc];
+
+        // Arrays lesson
+        AreArrayFun *array = [[AreArrayFun alloc] init];
+        [array testFunc];
     }
-
-    // Methods lesson
-    MethodMan *method = [[MethodMan alloc] init];
-    [method myFunc];
-
+    
 }
 
 - (IBAction)buttonPressed:(id)sender {
     UIAlertController *alert = [UIAlertController alertControllerWithTitle: @"HelloWorld"
-                                                                   message: @"Obj-c is awesome!"
+                                                                   message: @"Obj-C is awesome!"
                                                             preferredStyle: UIAlertControllerStyleAlert];
     UIAlertAction *cancelAction = [UIAlertAction actionWithTitle: @"Cancel it"
                                                            style: UIAlertActionStyleCancel
