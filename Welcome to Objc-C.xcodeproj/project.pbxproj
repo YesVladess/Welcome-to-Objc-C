@@ -12,6 +12,7 @@
 		5AA6866A27C0C4BF00034DD3 /* Persona.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA6866927C0C4BF00034DD3 /* Persona.m */; };
 		5AA6866D27C0E72800034DD3 /* AreArrayFun.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA6866C27C0E72800034DD3 /* AreArrayFun.m */; };
 		5AA6867027C12F3B00034DD3 /* Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA6866F27C12F3B00034DD3 /* Dictionary.m */; };
+		5AA9771927DE37E80058B1F1 /* DeathLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA9771827DE37E80058B1F1 /* DeathLoop.m */; };
 		5AE6D0E327357ADF0007E645 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6D0E227357ADF0007E645 /* AppDelegate.m */; };
 		5AE6D0E627357ADF0007E645 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6D0E527357ADF0007E645 /* SceneDelegate.m */; };
 		5AE6D0E927357ADF0007E645 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6D0E827357ADF0007E645 /* ViewController.m */; };
@@ -36,6 +37,8 @@
 		5AA6866C27C0E72800034DD3 /* AreArrayFun.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AreArrayFun.m; sourceTree = "<group>"; };
 		5AA6866E27C12F3B00034DD3 /* Dictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dictionary.h; sourceTree = "<group>"; };
 		5AA6866F27C12F3B00034DD3 /* Dictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dictionary.m; sourceTree = "<group>"; };
+		5AA9771727DE37E80058B1F1 /* DeathLoop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeathLoop.h; sourceTree = "<group>"; };
+		5AA9771827DE37E80058B1F1 /* DeathLoop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeathLoop.m; sourceTree = "<group>"; };
 		5AE6D0DE27357ADF0007E645 /* Welcome to Objc-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Welcome to Objc-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE6D0E127357ADF0007E645 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5AE6D0E227357ADF0007E645 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -133,6 +136,8 @@
 				5AA6866C27C0E72800034DD3 /* AreArrayFun.m */,
 				5AA6866E27C12F3B00034DD3 /* Dictionary.h */,
 				5AA6866F27C12F3B00034DD3 /* Dictionary.m */,
+				5AA9771727DE37E80058B1F1 /* DeathLoop.h */,
+				5AA9771827DE37E80058B1F1 /* DeathLoop.m */,
 			);
 			path = Lessons;
 			sourceTree = "<group>";
@@ -211,6 +216,7 @@
 				5AE6D0E327357ADF0007E645 /* AppDelegate.m in Sources */,
 				5AA6866A27C0C4BF00034DD3 /* Persona.m in Sources */,
 				5AF1C4B9279D73E1003E7963 /* StringFling.m in Sources */,
+				5AA9771927DE37E80058B1F1 /* DeathLoop.m in Sources */,
 				5AA6866D27C0E72800034DD3 /* AreArrayFun.m in Sources */,
 				B2C1376F27971B8A00F96884 /* Vehicle.m in Sources */,
 				5A924ED6279157EF0071E5DE /* Person.m in Sources */,

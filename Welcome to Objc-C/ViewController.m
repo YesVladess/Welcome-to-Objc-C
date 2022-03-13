@@ -14,6 +14,7 @@
 #import "MethodMan.h"
 #import "AreArrayFun.h"
 #import "Dictionary.h"
+#import "DeathLoop.h"
 
 @interface ViewController ()
 
@@ -66,11 +67,15 @@
         // Arrays lesson
         AreArrayFun *arrayLesson = [[AreArrayFun alloc] init];
         [arrayLesson startLesson];
+
+        // Dictionary lesson
+        Dictionary *dictLesson = [[Dictionary alloc] init];
+        [dictLesson startLesson];
     }
 
-    // Dictionary lesson
-    Dictionary *dictLesson = [[Dictionary alloc] init];
-    [dictLesson startLesson];
+    // Loops lesson
+    DeathLoop *loopLesson = [[DeathLoop alloc] init];
+    [loopLesson startLesson];
     
 }
 
